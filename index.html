@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script type="module" src="script.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <section>
+      <header>
+        <h2>Calculator</h2>
+      </header>
+      <form id="calculator">
+        <label for="first-value">
+          <input type="text" name="first-value" id="first-value" />
+        </label>
+        <label for="second-value">
+          <input type="text" name="second-value" id="second-value" />
+        </label>
+        <label for="operator-select">Operator</label>
+        <select name="operator-select" id="operator-select">
+          <option value="+">+</option>
+          <option value="-">-</option>
+          <option value="/">/</option>
+          <option value="*">*</option>
+        </select>
+        <button type="submit">Calculate</button>
+      </form>
+      <h3>Output:<span id="output"></span></h3>
+    </section>
+  </body>
+</html>
